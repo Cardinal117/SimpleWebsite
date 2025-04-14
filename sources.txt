@@ -1,0 +1,47 @@
+Image one link:
+https://www.123rf.com/photo_194697799_landscape-with-sacred-torii-gates-big-red-sun-and-misty-island-with-forest-trees-traditional.html
+
+Image two link:
+https://livejapan.com/en/article-a0002670/
+
+Image three link:
+https://www.vecteezy.com/photo/46522039-skilled-experienced-japanese-master-chef-preparing-sushi-rolls-traditional-cuisine-restaurant-bistro-slicing-fresh-salmon-fish-tasty-delicious-gourmet-dish-seafood-rice-cook-preparing
+
+Change bg color and slowly fading all elements:
+I wanted to find out how to fade out all elements in the html and found out how to do it with only 
+the body on w3schools and stackoverflow.
+URL:
+https://stackoverflow.com/questions/4283141/jquery-change-background-color
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_basic
+
+How to use mouse move:
+I wanted to know how to use the mouse move function of jquery to dynamically change the 
+font of an element and found out how to do this on w3schools.
+URL:
+https://www.w3schools.com/jquery/event_mousemove.asp
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_mousemove
+
+How to make a toggle button:
+I wanted to make simple toggle button to be able to toggle the chainANimation() on and off and 
+found a neat example on stackoverflow.
+URL:
+https://stackoverflow.com/questions/76837048/creating-the-simplest-html-toggle-button
+
+How to use Jquery stop():
+I wanted to know how to make an animation like fadeOut to stop mid or at any point in the animation 
+and found this example on how to use the stop() function to achieve this.
+URL:
+https://www.w3schools.com/jquery/jquery_stop.asp
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_stop_slide
+
+How to animate dropdown list:
+I wanted to know how to make a drop down list with an accordion animation style and 
+found out how to do this through an example on stackoverflow.
+URL:
+https://stackoverflow.com/questions/25349217/animate-dropdown-with-jquery
+
+Delay:
+I wanted some of my code only to run as soon as a certain amount of time has passed and 
+found out how to do this through and example on w3schools.
+URL:
+https://www.w3schools.com/jsref/met_win_settimeout.asp
