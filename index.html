@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Onigiri and Noodles</title>
+    <link rel="stylesheet" href="/Task_1/styling.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="grey-box-container">
+      <h1 class="main-heading chainRight">Onigiri and Noodles</h1>
+      <h2 class="sub-heading chainLeft" id="item">Our Story</h2>
+
+      <div class="chainRight">
+        <p>
+          Since childhood, we were captivated by the beautiful cuisines in
+          Japanese culture and wanted to perfect their style and recipes. We now
+          have achieved only the start of our dream and are committed to keep on
+          improving and perfecting our cuisines even further.
+        </p>
+      </div>
+      <div class="chainLeft">
+        <img
+          src="/Task_1/images/JapeneseWideToriGate.jpg"
+          alt="Image of a tori gate from Japan."
+          class="image-styling"
+        />
+      </div>
+      <div class="chainRight">
+        <h2 id="item" class="sub-heading">Our Food</h2>
+        <p id="ourFood">
+          We proudly offer a variety of tasty cuisines ready to be enjoyed by
+          people such as yourself. Below is a few of our iconic cuisines people
+          rated as the best meals of their life.
+        </p>
+      </div>
+      <!--Drop down list with animation-->
+      <table class="chainLeft">
+        <tr>
+          <td>
+            <ul id="nav">
+              <li class="drop-down">
+                <a class="drop-down">Breakfast</a>
+                <div
+                  class="drop"
+                  title="Filled with salmon, tuna mayo, or pickled plum (umeboshi)"
+                >
+                  <button>Onigiri (Rice Balls)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Traditional miso soup with tofu, seaweed, and green onions"
+                >
+                  <button>Miso Soup</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Lightly salted and grilled salmon or mackerel"
+                >
+                  <button>Grilled Fish (Yakizakana)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A slightly sweet and fluffy layered omelette"
+                >
+                  <button>Tamagoyaki (Rolled Omelette)</button>
+                </div>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul id="nav">
+              <li class="drop-down">
+                <a class="drop-down">Lunch</a>
+                <div
+                  class="drop"
+                  title="A breaded and deep-fried pork cutlet, often served with rice and shredded cabbage"
+                >
+                  <button>Tonkatsu (Pork Cutlet)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A savory pancake filled with cabbage, seafood, and various toppings"
+                >
+                  <button>Okonomiyaki (Savory Pancake)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A bowl of Japanese curry with rice, thick and flavorful"
+                >
+                  <button>Curry Rice</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Rice topped with simmered beef and onions in a sweet-savory sauce"
+                >
+                  <button>Gyudon (Beef Bowl)</button>
+                </div>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul id="nav">
+              <li class="drop-down">
+                <a class="drop-down">Dinner</a>
+                <div
+                  class="drop"
+                  title="A comforting hot pot dish with meat, vegetables, and tofu cooked in a flavorful broth"
+                >
+                  <button>Nabe (Hot Pot)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Thinly sliced beef and vegetables cooked in a sweet-savory soy-based broth"
+                >
+                  <button>Sukiyaki</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Grilled skewered chicken, often seasoned with salt or tare sauce"
+                >
+                  <button>Yakitori (Grilled Chicken Skewers)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A hearty bowl of ramen noodles in a rich, flavorful broth"
+                >
+                  <button>Ramen</button>
+                </div>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul id="nav">
+              <li class="drop-down">
+                <a class="drop-down">Desserts</a>
+                <div
+                  class="drop"
+                  title="Soft, sweet rice cake often filled with red bean paste"
+                >
+                  <button>Mochi</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Fluffy Japanese-style cheesecake with a light texture"
+                >
+                  <button>Japanese Cheesecake</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Crispy taiyaki pastry filled with red bean paste or custard"
+                >
+                  <button>Taiyaki (Fish-Shaped Pastry)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Sweet pancakes filled with red bean paste"
+                >
+                  <button>Dorayaki</button>
+                </div>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul id="nav">
+              <li class="drop-down">
+                <a class="drop-down">Drinks</a>
+                <div
+                  class="drop"
+                  title="Traditional Japanese green tea with a deep, earthy flavor"
+                >
+                  <button>Matcha (Green Tea)</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Sweet, creamy milk mixed with black tea"
+                >
+                  <button>Royal Milk Tea</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A refreshing soda-flavored Japanese drink with a marble-sealed bottle"
+                >
+                  <button>Ramune</button>
+                </div>
+                <div
+                  class="drop"
+                  title="Fermented rice drink, sweet and non-alcoholic"
+                >
+                  <button>Amazake</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A traditional Japanese alcoholic beverage made from fermented rice"
+                >
+                  <button>Sake</button>
+                </div>
+                <div
+                  class="drop"
+                  title="A sweet, chewy bubble tea with flavored syrup and chewy tapioca balls"
+                >
+                  <button>Boba Tea</button>
+                </div>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <div class="chainRight">
+        <img
+          src="/Task_1/images/JapeneseFoods.jpg"
+          alt="Image of a variety of Japanese cuisines"
+          class="image-styling"
+          id="fadingImage"
+        />
+      </div>
+      <button
+        id="startFade"
+        class="button-styling2 chainLeft"
+        onclick="fadingImage(1)"
+      >
+        Fade Out Image
+      </button>
+      <button
+        id="resetFade"
+        class="button-styling2 chainLeft"
+        onclick="fadingImage(2)"
+      >
+        Fade Image Back In
+      </button>
+      <button
+        id="stopFade"
+        class="button-styling2 chainLeft"
+        onclick="fadingImage(3)"
+      >
+        Stop Fade
+      </button>
+      <div class="chainRight">
+        <h2 id="item" class="sub-heading">Our People</h2>
+      </div>
+      <div class="chainLeft">
+        <p>
+          Our team consists of passionate and dedicated individuals who work
+          hard to make the best meals possible. The team is highly skilled and
+          trained to only provide the best. Each team member ensures that every
+          dish is prepared with the up most detail and flavour capable of
+          receiving awards.
+        </p>
+      </div>
+      <div class="chainRight">
+        <img
+          src="/Task_1/images/skilledExperiencedJapaneseMasterChef.jpg"
+          alt="Master chef working of a meal."
+          class="image-styling"
+        />
+      </div>
+      <button id="showHidden" class="button-styling chainLeft">
+        Show all hidden elements.
+      </button>
+
+      <button
+        id="toggleAnimation"
+        class="button-styling chainLeft"
+        onclick="buttonPress()"
+      >
+        toggle chain animation
+      </button>
+    </div>
+
+    <script type="text/javascript" src="/Task_1/mains.js"></script>
+  </body>
+</html>
